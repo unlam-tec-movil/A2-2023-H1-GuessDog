@@ -54,7 +54,7 @@ fun BodyContent (){
         .background(Color.Black)) {
         item {
 
-            Text(text = "PUNTAJES",
+            Text(text = "PUNTAJES maximo",
             color = Color.White,
             fontSize = 40.sp,
             modifier = Modifier
