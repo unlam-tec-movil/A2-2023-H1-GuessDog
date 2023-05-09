@@ -34,7 +34,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.guesstestv1.MainActivity
-import com.example.guesstestv1.ui.theme.ui.theme.GuessTestV1Theme
 
 class MainActivityDos : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -54,7 +53,7 @@ fun BodyContent (){
         .background(Color.Black)) {
         item {
 
-            Text(text = "PUNTAJES maximo",
+            Text(text = "PUNTAJES",
             color = Color.White,
             fontSize = 40.sp,
             modifier = Modifier
